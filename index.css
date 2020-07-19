@@ -73,3 +73,59 @@ nav li:hover {
     display: flex;
     flex-direction: column;
 }
+
+/* Projects */
+
+#projects {
+    background-color: var(--red-salsa);
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#projects a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#projects a:hover .project {
+    transform: scale(1.1);
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .3s;
+    width: 400px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 400px;
+    height: auto;
+}
+
+/* Contact */
+
+#contact {
+    background-color: var(--alice-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea {
+    margin: 5px 0;
+}
