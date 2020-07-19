@@ -1,0 +1,51 @@
+* {
+    --oxford-blue: hsla(217, 96%, 11%, 1);
+    --red-salsa: hsla(356, 86%, 58%, 1);
+    --sonic-silver: hsla(202, 4%, 44%, 1);
+    --vivid-sky-blue: hsla(194, 85%, 62%, 1);
+    --alice-blue: hsla(206, 47%, 94%, 1);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: var(--sonic-silver);
+    color: var(--oxford-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+}
+
+header h1 {
+    cursor: default;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 100px;
+    transition-duration: .3s;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: var(--alice-blue);
+    color: var(--vivid-sky-blue);
+}
