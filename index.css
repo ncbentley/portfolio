@@ -6,6 +6,8 @@
     --alice-blue: hsla(206, 47%, 94%, 1);
 }
 
+/* Header */
+
 body {
     margin: 0;
 }
@@ -48,4 +50,26 @@ nav li:hover {
     transform: scale(1.1);
     background-color: var(--alice-blue);
     color: var(--vivid-sky-blue);
+}
+
+/* About Me */
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    background-color: var(--alice-blue)
+}
+
+#about-me img {
+    margin: 0 20px;
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#about-me .text {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
 }
