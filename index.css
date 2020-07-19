@@ -21,6 +21,9 @@ header {
     align-items: center;
     height: 100px;
     padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: calc(100vw - 40px);
 }
 
 header h1 {
@@ -57,7 +60,7 @@ nav li:hover {
 #about-me {
     display: flex;
     flex-direction: row;
-    padding: 50px 0;
+    padding: 150px 0;
     background-color: var(--alice-blue)
 }
 
@@ -128,4 +131,22 @@ form {
 
 input, textarea {
     margin: 5px 0;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    margin: 0 5px;
+}
+
+footer img {
+    height: 2em;
+    width: auto;
 }
